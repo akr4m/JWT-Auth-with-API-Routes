@@ -90,15 +90,17 @@ Update config/auth.php file
 Ready to deal!!
 
 ### Active API Routes
-
-  - url/api/register (POST)
-  - url/api/login (POST)
-  - url/api/logout (POST)
-  - url/api/password/forgot (POST)
-  - url/api/password/reset (POST)
-  - url/api/me (GET)
   
-#### Profile
+| url | Method | Middleware |
+| ------ | ------ | ------ |
+| /api/register | POST | api,guest
+| /api/login | POST | api,guest
+| /api/logout | POST | api
+| /api/password/forgot | POST | api,guest
+| /api/password/reset | POST | api,guest
+| /api/me | GET | api,auth:api
+  
+#### Profile output
 
 ```
 {
