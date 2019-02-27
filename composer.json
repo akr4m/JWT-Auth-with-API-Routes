@@ -1,38 +1,38 @@
 {
-    "name": "akram/jwtauth",
-    "description": "Json Web Token (JWT) Authentication (Register, Login, Forget Password, Reset Password, My Profile)",
-    "keywords": [
-        "Json Web Token",
-        "Laravel",
-        "api",
-        "jwt",
-        "auth",
-        "login",
-        "register",
-        "password"
-    ],
-    "type": "library",
-    "require": {
-        "tymon/jwt-auth": "^1.0.0"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "akr4m",
-            "email": "akr4m.kh@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "akr4m\\jwtauth\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "akr4m\\jwtauth\\JWTauthServiceProvider"
-            ]
-        }
-    },
-    "minimum-stability": "dev"
+  "name": "akr4m/jwtauth",
+  "description": "Json Web Token (JWT) Authentication (Register, Login, Forget Password, Reset Password, My Profile)",
+  "keywords": [
+    "Json Web Token",
+    "Laravel",
+    "api",
+    "jwt",
+    "auth",
+    "login",
+    "register",
+    "password"
+  ],
+  "type": "library",
+  "require": {
+    "tymon/jwt-auth": "^1.0.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "akr4m",
+      "email": "akr4m.kh@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "akr4m\\jwtauth\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "akr4m\\jwtauth\\JWTauthServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
 }
